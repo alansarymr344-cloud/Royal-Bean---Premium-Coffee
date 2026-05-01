@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Royal Bean - Premium Coffee</title>
+        <meta name="description"
+            content="Royal Bean: Premium coffee sourced from our own farms, roasted to perfection, and distributed worldwide." />
+        <link rel="stylesheet" href="stayle.css" />
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a href="#home" class="brand">
+                    <img src="img/logo.png" alt="Royal Bean Logo"
+                        class="brand-logo" />
+                    <span>Royal Bean</span>
+                </a>
+                <nav class="site-nav">
+                    <a href="#home" data-i18n="nav.home">Home</a>
+                    <a href="#about" data-i18n="nav.about">About</a>
+                    <a href="#menu" data-i18n="nav.products">Products</a>
+                    <a href="#contact" data-i18n="nav.contact">Contact</a>
+                    <a href="login.html" class="button outline nav-cta"
+                        data-i18n="nav.login">Login</a>
+                    <a href="cart.html" class="button secondary nav-cta"
+                        data-i18n="nav.cart">Cart</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="icon-button theme-toggle" type="button"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <button class="icon-button lang-toggle" type="button"
+                        aria-label="Switch language">ع</button>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-overlay"></div>
+                <div class="container hero-content fade-up">
+                    <p class="eyebrow">Premium Coffee Roasters</p>
+                    <h1>Discover Royal Bean: From farm to cup.</h1>
+                    <p class="hero-copy">Sourced from our own farms, expertly
+                        roasted, and delivered fresh to your doorstep or
+                        café.</p>
+                    <div class="hero-actions">
+                        <a href="#menu" class="button primary">Explore the
+                            menu</a>
+                        <a href="#about" class="button secondary">Our story</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section about-section container fade-up">
+                <div class="section-intro">
+                    <span class="section-label">About Us</span>
+                    <h2>From our farms to your cup.</h2>
+                    <p>Royal Bean sources premium coffee beans directly from our
+                        own sustainable farms, roasts them to perfection, and
+                        distributes worldwide.</p>
+                </div>
+                <div class="about-grid">
+                    <article class="feature-card">
+                        <h3>Own Farms</h3>
+                        <p>Fresh beans harvested from our dedicated plantations,
+                            ensuring quality and sustainability.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Expert Roasting</h3>
+                        <p>Artisanal roasting techniques bring out the richest
+                            flavors in every batch.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Global Distribution</h3>
+                        <p>Delivering premium coffee to cafés, retailers, and
+                            homes across the world.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="menu" class="section menu-section container fade-up">
+                <div class="section-intro">
+                    <span class="section-label">Our Products</span>
+                    <h2>Royal Bean blends and roasts.</h2>
+                    <p>Discover our premium coffee selections, sourced from our
+                        own farms and roasted to perfection.</p>
+                </div>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <img class="menu-image"
+                            src="img/1.png"
+                            alt="Royal Bean Espresso Blend package" />
+                        <h3>Royal Bean Espresso Blend</h3>
+                        <p>Our signature espresso blend, rich and bold with
+                            notes of caramel and dark chocolate, sourced from
+                            our farms.</p>
+                        <span class="price">$14.50 / 250g</span>
+                        <button class="button outline add-to-cart"
+                            data-name="Royal Bean Espresso Blend"
+                            data-price="14.50">Add to Cart</button>
+                    </article>
+                    <article class="menu-card">
+                        <img class="menu-image"
+                            src="img/2.png"
+                            alt="Royal Bean Arabica Roast jar" />
+                        <h3>Royal Bean Arabica Roast</h3>
+                        <p>Premium Arabica beans roasted to perfection, offering
+                            a smooth aroma and bright flavor for everyday
+                            enjoyment.</p>
+                        <span class="price">$13.80 / 200g</span>
+                        <button class="button outline add-to-cart"
+                            data-name="Royal Bean Arabica Roast"
+                            data-price="13.80">Add to Cart</button>
+                    </article>
+                    <article class="menu-card">
+                        <img class="menu-image"
+                            src="img/3.png"
+                            alt="Royal Bean Classic Blend package" />
+                        <h3>Royal Bean Classic Blend</h3>
+                        <p>Our classic blend with cocoa and dried fruit notes,
+                            ideal for cafés and wholesale distribution.</p>
+                        <span class="price">$12.90 / 250g</span>
+                        <button class="button outline add-to-cart"
+                            data-name="Royal Bean Classic Blend"
+                            data-price="12.90">Add to Cart</button>
+                    </article>
+
+                </div>
+                <div class="section-actions">
+                    <a href="more-products.html" class="button outline">View
+                        More Products</a>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact-section fade-up">
+                <div class="container contact-card">
+                    <h2>Ready to stock Royal Bean?</h2>
+                    <p>Partner with us for premium farm-to-roast coffee,
+                        wholesale supply, and tailored distribution for cafés
+                        and retailers.</p>
+                    <div class="contact-grid">
+                        <form class="contact-form" action="#" method="post">
+                            <div class="field-group">
+                                <label for="company">Company / Cafe Name</label>
+                                <input id="company" type="text" name="company"
+                                    placeholder="Royal Bean Partner" required />
+                            </div>
+                            <div class="field-group">
+                                <label for="contact-name">Contact Name</label>
+                                <input id="contact-name" type="text" name="name"
+                                    placeholder="Ahmed Hassan" required />
+                            </div>
+                            <div class="field-group">
+                                <label for="email">Email Address</label>
+                                <input id="email" type="email" name="email"
+                                    placeholder="sales@company.com" required />
+                            </div>
+                            <div class="field-group">
+                                <label for="phone">Phone Number</label>
+                                <input id="phone" type="tel" name="phone"
+                                    placeholder="+20 100 000 0000" required />
+                            </div>
+                            <div class="field-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Tell us about your order size or distribution needs."></textarea>
+                            </div>
+                            <button type="submit" class="button primary">Request
+                                Quote</button>
+                        </form>
+                        <div class="contact-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.8372077368507!2d31.236447915141826!3d30.044419481878286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458472af8eb9d41%3A0x2f2f9dfb9d3c8d4e!2sCairo%2C%20Egypt!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Royal Bean Headquarters Location"></iframe>
+                        </div>
+                    </div>
+                    <p class="company-tagline">Royal Bean — from our farms to
+                        your shelves, roasted, packed, and delivered with
+                        premium care.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>© 2026 Royal Bean. Roasted with care. Built by Omar
+                    AL_ansary.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

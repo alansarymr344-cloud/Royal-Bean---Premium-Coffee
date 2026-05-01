@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Royal Bean - Cart</title>
+        <meta name="description"
+            content="Shopping cart page for Royal Bean coffee products." />
+        <link rel="stylesheet" href="stayle.css" />
+    </head>
+    <body class="cart-page">
+        <header class="site-header">
+            <div class="container header-inner">
+                <a href="index.html#home" class="brand">
+                    <img src="img/logo.png" alt="Royal Bean Logo"
+                        class="brand-logo" />
+                    <span>Royal Bean</span>
+                </a>
+                <nav class="site-nav">
+                    <a href="index.html#home" data-i18n="nav.home">Home</a>
+                    <a href="index.html#about" data-i18n="nav.about">About</a>
+                    <a href="index.html#menu"
+                        data-i18n="nav.products">Products</a>
+                    <a href="login.html" class="button outline nav-cta"
+                        data-i18n="nav.login">Login</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="icon-button theme-toggle" type="button"
+                        aria-label="Toggle dark mode">🌙</button>
+                    <button class="icon-button lang-toggle" type="button"
+                        aria-label="Switch language">ع</button>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="section cart-section">
+                <div class="container cart-card fade-up">
+                    <span class="section-label">Shopping Cart</span>
+                    <h2>Your coffee selection</h2>
+                    <div class="cart-items"></div>
+                    <p class="cart-empty">Your cart is empty. Add coffee from
+                        the menu to see it here.</p>
+                    <div class="cart-total">Total: $0.00</div>
+                    <button class="button outline clear-cart">Clear
+                        Cart</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>© 2026 Royal Bean. Roasted with care. Built by Omar
+                    AL_ansary.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
